@@ -1,0 +1,7 @@
+preset: recommended
+risky: true
+finder:
+  exclude:
+    - node_modules
+    - vendor
+  name: "*.php"

@@ -1,0 +1,30 @@
+{
+    "header": "# Changelog",
+    "releaseCommitMessageFormat": "release: v{{currentTag}}",
+    "types": [
+        {
+            "type": "new",
+            "section": "New"
+        },
+        {
+            "type": "chg",
+            "section": "Changes"
+        },
+        {
+            "type": "fix",
+            "section": "Fixes"
+        },
+        {
+            "type": "rem",
+            "section": "Removed"
+        },
+        {
+            "type": "sec",
+            "section": "Security"
+        },
+        {
+            "type": "oth",
+            "section": "Other"
+        }
+    ]
+}

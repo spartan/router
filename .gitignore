@@ -1,0 +1,10 @@
+/.nbproject
+/.idea
+/.vagrant
+/vendor
+/node_modules
+/tests/report
+composer.lock
+*.phar
+*.cache
+.env

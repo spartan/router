@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<ruleset name="PHP Coding Standard">
+    <description>PHP standard component</description>
+
+    <rule ref="PSR2"/>
+
+    <file>./src</file>
+    <file>./tests</file>
+
+    <exclude-pattern>*/tests/report/*</exclude-pattern>
+</ruleset>
