@@ -45,7 +45,21 @@
     "config": {
         "sort-packages": true
     },
-    "scripts": {
+    "extra": {
+        "spartan": {
+            "install": {
+                "copy": {
+                    "config/routes.php": "config/routes.php"
+                },
+                "middleware": [
+                    "Spartan\\Router\\Middleware\\Resolve::class",
+                    "Spartan\\Router\\Middleware\\Dispatch::class => Spartan\\Http\\PriorityQueue::LAST"
+                ],
+                "services": [
+                    "Spartan\\Router\\ServiceProvider::class"
+                ]
+            }
+        }
     },
     "minimum-stability": "dev",
     "prefer-stable": true
