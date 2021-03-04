@@ -1,4 +1,11 @@
 # Changelog
+### [0.1.1](https://github.com/spartan/router/compare/v0.1.0...v0.1.1) (2021-03-04)
+
+
+### New
+
+* spartan provision config ([ecd7e16](https://github.com/spartan/router/commit/ecd7e16558b4f8a1061ee7bb5bd34284a08f5c43))
+
 ## 0.1.0 (2021-03-03)
 
 
