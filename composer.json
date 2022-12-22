@@ -25,9 +25,11 @@
         "php": ">=7.4",
         "nikic/fast-route": "^1.3",
         "spartan/adr": "^0.1.0",
-        "spartan/cache": "^0.1.0",
         "spartan/http": "^0.1.0",
         "spartan/service": "^0.1.0"
+    },
+    "suggest": {
+        "spartan/cache": "Use v0.1 for php 7 and v0.2 for php 8"
     },
     "autoload": {
         "psr-4": {
