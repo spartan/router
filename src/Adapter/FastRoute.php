@@ -75,7 +75,8 @@ class FastRoute implements RouterInterface
     {
         $path = $uri instanceof UriInterface ? $uri->getPath() : (string)$uri;
 
-        [$status, $handler, $params] = $this->dispatcher()->dispatch($method, $path);
+        // NOT_FOUND is [status] only, METHOD_NOT_ALLOWED is [status, allowedMethods]
+        [$status, $handler, $params] = $this->dispatcher()->dispatch($method, $path) + [null, null, []];
 
         return new Route(
             self::STATUS_MAP[$status] ?? Route::ERROR,
