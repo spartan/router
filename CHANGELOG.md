@@ -1,4 +1,11 @@
 # Changelog
+### [0.1.3](https://github.com/spartan/router/compare/v0.1.2...v0.1.3) (2026-10-29)
+
+
+### Fixes
+
+* router: not found / method not allowed without handler params ([b177292](https://github.com/spartan/router/commit/b1772927dba16b03fb2230dddb9c951ab1f207b1))
+
 ### [0.1.2](https://github.com/spartan/router/compare/v0.1.1...v0.1.2) (2022-12-22)
 
 
